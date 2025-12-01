@@ -1,0 +1,28 @@
+{
+  "name": "projectplatinum",
+  "version": "0.0.1",
+  "description": "A self-hosted emulation frontend for the web.",
+  "keywords": [
+    "emulation",
+    "self-hosted",
+    "go",
+    "node",
+    "svelte",
+    "emu"
+  ],
+  "homepage": "https://github.com/ZombieNW/ProjectPlatinum#readme",
+  "bugs": {
+    "url": "https://github.com/ZombieNW/ProjectPlatinum/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZombieNW/ProjectPlatinum.git"
+  },
+  "license": "MIT",
+  "author": "ZombieNW",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "build index.js"
+  }
+}
