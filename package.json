@@ -23,9 +23,10 @@
   "type": "module",
   "main": "build/index.js",
   "scripts": {
-    "build": "npm run build:frontend && npm run build:backend && npm run build:assemble",
+    "build": "npm run build:frontend && npm run build:backend && npm run build:assemble && npm run build:install-deps",
     "build:frontend": "npm --prefix frontend install && npm --prefix frontend run build",
     "build:backend": "npm --prefix backend install && npm --prefix backend run build",
-    "build:assemble": "node build/assemble.js"
+    "build:assemble": "node build/assemble.js",
+    "build:install-deps": "npm --prefix dist/server install --omit=dev"
   }
 }
