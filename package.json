@@ -23,6 +23,9 @@
   "type": "module",
   "main": "build/index.js",
   "scripts": {
-    "build": "build index.js"
+    "build": "npm run build:frontend && npm run build:backend && npm run build:assemble",
+    "build:frontend": "npm --prefix frontend install && npm --prefix frontend run build",
+    "build:backend": "npm --prefix backend install && npm --prefix backend run build",
+    "build:assemble": "node build/assemble.js"
   }
 }
