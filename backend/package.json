@@ -1,0 +1,25 @@
+{
+  "name": "projectplatinum-backend",
+  "version": "0.1.0",
+  "description": "Backend for ProjectPlatinum",
+  "keywords": [
+    "express",
+    "backend",
+    "emulators"
+  ],
+  "homepage": "https://github.com/ZombieNW/ProjectPlatinum#readme",
+  "bugs": {
+    "url": "https://github.com/ZombieNW/ProjectPlatinum/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZombieNW/ProjectPlatinum.git"
+  },
+  "license": "MIT",
+  "author": "ZombieNW",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
